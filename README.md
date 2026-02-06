@@ -10,13 +10,23 @@ You should have git installed in Termux
 ```
 pkg install git
 ```
-Clone my repo:
+Install Xfce4:
+```
+pkg install x11-repo
+pkg install tur-repo
+pkg install xfce4 xfce4-goodies
+pkg install firefox thunderbird abiword gnumeric gnome-font-viewer vlc mpv gimp geany
+```
+Now you are installing Windows 10 in Termux!
+
+Forget the installwin10.sh, it is not working
+
+Clone my start script
 ```
 git clone https://github.com/butkishamida-lab/Termux-Win10/
 cd Termux-Win10
-bash ./installwin10.sh
+bash ./startwin10.sh
 ```
-Now you are installing Windows 10 in Termux!
 
 The desktop seemed different, but I recommend to get themes here:
 https://github.com/B00merang-Project/Windows-10-Fluent
@@ -29,4 +39,5 @@ https://www.gnome-look.org/p/1829490
 <br>
 https://wallpapercave.com/w/wp5493583
 <br>
+
 Enjoy!
