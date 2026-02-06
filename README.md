@@ -13,6 +13,8 @@ pkg install git
 Install Xfce4:
 ```
 pkg install x11-repo
+pkg install termux-x11-nightly
+pkg install wget
 pkg install tur-repo
 pkg install xfce4 xfce4-goodies
 pkg install firefox thunderbird abiword gnumeric gnome-font-viewer vlc mpv gimp geany
@@ -26,11 +28,14 @@ Now you are installing Windows 10 in Termux!
 
 Forget the installwin10.sh, it is not working
 
-Clone my start script
+Wget their script
 ```
-git clone https://github.com/butkishamida-lab/Termux-Win10/
-cd Termux-Win10
-bash ./startwin10.sh
+wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/startxfce4_termux.sh
+```
+
+To start the desktop environment, run this
+```
+bash ~/startxfce4_termux.sh
 ```
 
 The desktop seemed different, but I recommend to get themes here:
