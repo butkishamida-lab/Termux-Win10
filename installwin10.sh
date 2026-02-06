@@ -1,0 +1,1 @@
+pkg install x11-repo & pkg install tur-repo & pkg install termux-x11-nightly xfce4 xfce4-goodies firefox thunderbird abiword gnumeric vlc mpv gnome-font-viewer & echo Installing Mobox... & curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x & echo To run, enter command  ./startwin10.sh
