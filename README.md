@@ -17,6 +17,11 @@ pkg install tur-repo
 pkg install xfce4 xfce4-goodies
 pkg install firefox thunderbird abiword gnumeric gnome-font-viewer vlc mpv gimp geany
 ```
+Install Mobox:
+```
+curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+```
+
 Now you are installing Windows 10 in Termux!
 
 Forget the installwin10.sh, it is not working
